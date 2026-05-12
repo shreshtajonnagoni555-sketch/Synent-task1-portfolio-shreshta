@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreshta Jonnagoni | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="preloader__ring"></div>
+    <p>Launching premium experience...</p>
+  </div>
+  <div class="cursor" id="cursor"></div>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__brand">
+      <span class="brand__mark">S</span>
+      <div>
+        <p>Shreshta Jonnagoni</p>
+        <span>Futuristic Developer</span>
+      </div>
+    </div>
+    <nav class="navbar__menu" id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="navbar__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__background">
+        <div class="particle" style="--x: 10%; --y: 20%; --s: 1.1"></div>
+        <div class="particle" style="--x: 75%; --y: 10%; --s: 0.8"></div>
+        <div class="particle" style="--x: 25%; --y: 80%; --s: 0.9"></div>
+        <div class="particle" style="--x: 85%; --y: 70%; --s: 1.3"></div>
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow">Luxury Developer Experience</p>
+        <h1>Hi, I'm <span>Shreshta Jonnagoni</span></h1>
+        <p class="hero__subtitle">I build luminous digital products with modern design and bulletproof frontend craft.</p>
+        <div class="hero__typing">
+          <span class="typing-text" id="typingText"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        <div class="hero__buttons">
+          <a href="#contact" class="button button--primary">Hire Me</a>
+          <a href="#about" class="button button--secondary">Learn More</a>
+        </div>
+        <div class="hero__socials">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="Twitter">TW</a>
+          <a href="#" aria-label="Dribbble">DB</a>
+        </div>
+      </div>
+      <div class="hero__panel">
+        <div class="hero__stat">
+          <span>10+</span>
+          <p>Premium Projects</p>
+        </div>
+        <div class="hero__stat">
+          <span>8</span>
+          <p>Years Experience</p>
+        </div>
+        <div class="hero__stat">
+          <span>24/7</span>
+          <p>Creative Flow</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section__header">
+        <small>About Me</small>
+        <h2>From concept to code, I craft premium digital narratives.</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__card glass-card">
+          <div class="profile-frame">
+            <img src="image%20synent/shreshta%20img.jpeg" alt="Shreshta Jonnagoni" />
+          </div>
+          <div class="about__intro">
+            <h3>Hello, I'm Shreshta.</h3>
+            <p>I design futuristic interfaces and build modern frontend systems with thoughtful animations, accessible components, and performant code.</p>
+          </div>
+        </div>
+        <div class="about__details">
+          <div class="about__text">
+            <p>Passionate about premium UI, motion-driven user experiences, and developer-first architecture. I translate complex ideas into sleek, responsive web experiences that feel both elegant and energetic.</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline__item active">
+              <span>2025</span>
+              <div>
+                <h4>Lead UI Developer</h4>
+                <p>Designed immersive web apps and onboarding flows for a digital studio.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <span>2023</span>
+              <div>
+                <h4>Creative Frontend Engineer</h4>
+                <p>Built animation-first landing pages and interactive brand experiences.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <span>2021</span>
+              <div>
+                <h4>UI/UX Intern</h4>
+                <p>Led design systems and prototyped motion concepts for SaaS products.</p>
+              </div>
+            </div>
+          </div>
+          <div class="counters">
+            <div class="counter-card">
+              <span class="counter" data-target="46">0</span>
+              <p>Projects Completed</p>
+            </div>
+            <div class="counter-card">
+              <span class="counter" data-target="12">0</span>
+              <p>Certifications</p>
+            </div>
+            <div class="counter-card">
+              <span class="counter" data-target="3">0</span>
+              <p>Internships</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section__header">
+        <small>Expertise</small>
+        <h2>Advanced skills for premium digital systems.</h2>
+      </div>
+      <div class="skills__wrap">
+        <div class="skill-category glass-card">
+          <h3>Frontend</h3>
+          <div class="skill-pill">HTML5</div>
+          <div class="skill-pill">CSS3</div>
+          <div class="skill-pill">JavaScript</div>
+          <div class="skill-pill">React</div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3>Backend</h3>
+          <div class="skill-pill">Node.js</div>
+          <div class="skill-pill">Express</div>
+          <div class="skill-pill">GraphQL</div>
+          <div class="skill-pill">Firebase</div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3>Tools</h3>
+          <div class="skill-pill">Figma</div>
+          <div class="skill-pill">Git</div>
+          <div class="skill-pill">Vite</div>
+          <div class="skill-pill">Webpack</div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3>UI/UX</h3>
+          <div class="skill-pill">Motion</div>
+          <div class="skill-pill">Design Systems</div>
+          <div class="skill-pill">Prototyping</div>
+          <div class="skill-pill">Accessibility</div>
+        </div>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar">
+          <div>
+            <span>Animation & motion</span>
+            <strong>92%</strong>
+          </div>
+          <div class="bar"><span style="width:92%"></span></div>
+        </div>
+        <div class="skill-bar">
+          <div>
+            <span>Responsive layouts</span>
+            <strong>98%</strong>
+          </div>
+          <div class="bar"><span style="width:98%"></span></div>
+        </div>
+        <div class="skill-bar">
+          <div>
+            <span>Performance tuning</span>
+            <strong>88%</strong>
+          </div>
+          <div class="bar"><span style="width:88%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="section__header">
+        <small>Reviews</small>
+        <h2>Trusted by collaborators and product partners.</h2>
+      </div>
+      <div class="testimonial-slider" id="testimonialSlider">
+        <article class="testimonial-card glass-card active">
+          <p>“Shreshta brought our brand to life with stunning visuals and an interface that feels both premium and easy to use.”</p>
+          <div class="testimonial__meta">
+            <div class="avatar">NA</div>
+            <div>
+              <h4>Elena M.</h4>
+              <span>Product Lead</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card glass-card">
+          <p>“The motion design and responsiveness were incredible — the project shipped ahead of schedule and impressed stakeholders.”</p>
+          <div class="testimonial__meta">
+            <div class="avatar">RS</div>
+            <div>
+              <h4>Ryan S.</h4>
+              <span>Creative Director</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card glass-card">
+          <p>“Every detail felt thoughtful, from accessible components to the glowing interactions on the final site.”</p>
+          <div class="testimonial__meta">
+            <div class="avatar">AK</div>
+            <div>
+              <h4>Aisha K.</h4>
+              <span>Startup Founder</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section__header">
+        <small>Contact</small>
+        <h2>Let's create an unforgettable digital experience.</h2>
+      </div>
+      <div class="contact__layout">
+        <div class="contact__info glass-card">
+          <h3>Get in touch</h3>
+          <p>Ready for a premium project? Reach out and let's chat about your next web experience.</p>
+          <div class="contact__details">
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hello@shreshtajonnagoni.dev">hello@shreshtajonnagoni.dev</a>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+1234567890">+1 234 567 890</a>
+            </div>
+            <div>
+              <strong>LinkedIn</strong>
+              <a href="#">linkedin.com/in/shreshtajonnagoni</a>
+            </div>
+            <div>
+              <strong>GitHub</strong>
+              <a href="#">github.com/shreshtajonnagoni</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form glass-card" id="contactForm">
+          <div class="field">
+            <input type="text" id="name" required placeholder=" " />
+            <label for="name">Name</label>
+          </div>
+          <div class="field">
+            <input type="email" id="email" required placeholder=" " />
+            <label for="email">Email</label>
+          </div>
+          <div class="field">
+            <input type="text" id="subject" required placeholder=" " />
+            <label for="subject">Subject</label>
+          </div>
+          <div class="field field--textarea">
+            <textarea id="message" rows="5" required placeholder=" "></textarea>
+            <label for="message">Message</label>
+          </div>
+          <button type="submit" class="button button--primary button--send">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Shreshta Jonnagoni. Crafted with futuristic detail and premium frontend craftsmanship.</p>
+    <button class="top-button" id="topButton" aria-label="Back to top">↑ Top</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
